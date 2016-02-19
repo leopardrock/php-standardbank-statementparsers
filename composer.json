@@ -1,0 +1,30 @@
+{
+    "name": "leopardrock/php-standardbank-statementparsers",
+    "description": "Statement Parsers for Standard Bank",
+    "keywords": [
+        "standardbank"
+    ],
+    "license": "Commercial",
+    "authors": [
+        {
+            "name": "Jacques Marneweck",
+            "email": "jacques@powertrip.co.za"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "league/csv": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leopardrock\\StandardBank\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --debug --verbose --configuration=tests/phpunit.xml",
+        "phpcs": "phpcs --standard=PSR2 ./src"
+    }
+}
