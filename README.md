@@ -1,6 +1,7 @@
 # Standard Bank Statement Parsers
 
-Parsers the Standard Bank Business Online Multibyte (133-byte) CSV format file.
+Parsers the Standard Bank Business Online Multiple Account (CCYYMMDD - 133-bytes)
+CSV formatted file.
 
 ## COPYRIGHT
 
